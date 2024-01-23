@@ -1,0 +1,5 @@
+
+Compilacion en linux:
+gcc 1_main.c 2_get_line_map.c 3_list.c 4_drow_map.c free.c ft_bresemham.c aux.c ft_dda.c  ./get_next_line/get_next_line.c ./get_next_line/get_next_line_utils.c ./libft/libft.a ./minilibx-linux/libmlx_Linux.a -lX11 -lXext -lm
+
+gcc 1_main.c 2_get_line_map.c get_next_line/get_next_line.c get_next_line/get_next_line_utils.c libft/ft_split.c libft/ft_strcpy_to_char.c libft/ft_atoi.c libft/ft_strlen.c libft/ft_lstadd_back_bonus.c 3_list.c free.c 4_drow_map.c aux.c libft/ft_toupper.c libft/ft_isdigit.c libft/ft_isalpha.c ft_dda.c -lmlx -framework OpenGL -framework AppKit -fsanitize=address -g
