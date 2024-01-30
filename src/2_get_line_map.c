@@ -6,7 +6,7 @@
 /*   By: manufern <manufern@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/09 20:06:40 by manufern          #+#    #+#             */
-/*   Updated: 2024/01/23 17:14:55 by manufern         ###   ########.fr       */
+/*   Updated: 2024/01/24 16:10:37 by manufern         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -87,7 +87,6 @@ int	ft_get_line_map(char *argv)
 	fd = open(argv, O_RDONLY);
 	if (fd == -1)
 	{
-		printf("Error al abrir el archivo");
 		return (1);
 	}
 	while (1)

@@ -6,7 +6,7 @@
 #    By: manufern <manufern@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/01/16 18:07:32 by manufern          #+#    #+#              #
-#    Updated: 2024/01/17 17:28:30 by manufern         ###   ########.fr        #
+#    Updated: 2024/01/24 16:19:50 by manufern         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -21,7 +21,7 @@ SRCS = src/1_main.c \
        src/2_get_line_map.c \
        src/3_list.c \
        src/4_drow_map.c \
-       src/aux.c \
+       src/ft_atoy_hexa.c \
        src/free.c \
        src/ft_atoi.c \
        src/ft_dda.c \

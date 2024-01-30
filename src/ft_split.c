@@ -104,26 +104,3 @@ char	**ft_split(char const *s, char c)
 	aux[words] = NULL;
 	return (ft_matrix(aux, s, c, 0));
 }
-/*int main()
-{
-    char const *input_string = "";
-    char c = '\0';
-
-    char **result = ft_split(input_string, c);
-
-    if (result)
-    {
-        for (int i = 0; result[i] != NULL; i++)
-        {
-            printf("Palabra %d: %s\n", i + 1, result[i]);
-        }
-
-        // Liberar la memoria asignada dinámicamente
-        free(result);
-    }
-    else
-    {
-        printf("Error al dividir la cadena.\n");
-    }
-    return (0);
-}*/
