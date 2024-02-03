@@ -6,7 +6,7 @@
 /*   By: manufern <manufern@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/14 16:30:38 by manufern          #+#    #+#             */
-/*   Updated: 2024/01/24 16:28:18 by manufern         ###   ########.fr       */
+/*   Updated: 2024/02/03 14:03:38 by manufern         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -65,7 +65,10 @@ void	ft_drow(t_map *map, float center_x, float center_y)
 {
 	void	*mlx;
 	void	*mlx_win;
+	void	*logo;
 	t_data	img;
+	int		width;
+	int		height;
 
 	mlx = mlx_init();
 	mlx_win = mlx_new_window(mlx, WIDTH, HEIGHT, "FDF");
@@ -73,6 +76,17 @@ void	ft_drow(t_map *map, float center_x, float center_y)
 	{
 		return ;
 	}
+
+	// Carga la imagen del logo
+	logo = mlx_xpm_file_to_image(mlx, "Logo.xpm", &width, &height);
+	if (logo == NULL)
+	{
+		mlx_destroy_window(mlx, mlx_win);
+		return ;
+	}
+
+	// Dibuja la imagen del logo en la ventana
+	
 	img.img = mlx_new_image(mlx, WIDTH, HEIGHT);
 	if (img.img == NULL)
 	{
@@ -83,6 +97,7 @@ void	ft_drow(t_map *map, float center_x, float center_y)
 			&img.line_length, &img.exit_flag);
 	ft_drow_map(map, center_x, center_y, &img);
 	mlx_put_image_to_window(mlx, mlx_win, img.img, 0, 0);
+	mlx_put_image_to_window(mlx, mlx_win, logo, 0, 0);
 	mlx_hook(mlx_win, 2, 0, press_key, &img);
 	mlx_hook(mlx_win, 17, 0, close_program, NULL);
 	mlx_loop(mlx);
