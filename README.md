@@ -26,8 +26,5 @@ Una vez compilado, puedes ejecutar el programa con `./fdf [mapa]`, donde `[mapa]
 
 ## Créditos
 
-Este proyecto fue desarrollado como parte del plan de estudios de la escuela 42 (Madrid) por [Tu Nombre].
+Este proyecto fue desarrollado como parte del plan de estudios de la escuela 42 (Madrid) por [Manuel Fernández].
 
-## Licencia
-
-Este proyecto está bajo la Licencia MIT - consulta el archivo [LICENSE](LICENSE) para más detalles.
