@@ -1,3 +1,47 @@
+# README
+
+## 🌐 Language Selector / Selector de Idioma
+
+[English](#english) | [Español](#español)
+
+---
+
+## <a name="english"></a>English
+
+# Fdf
+
+![Demo](demo.gif)
+
+This project focuses on the 3D graphical representation of maps using the miniLibX graphic library.
+
+## Description
+
+Fdf (Fil de Fer) is a project from school 42 that consists of creating a program capable of reading map files in .fdf format and representing them in 3D using the wireframe technique.
+
+## Features
+
+- 3D map visualization.
+- Support for rotation and zoom.
+- Simple graphical interface using the miniLibX library.
+
+## Usage
+
+To compile the program, run the `make` command in the terminal.
+Once compiled, you can execute the program with `./fdf [map]`, where `[map]` is the .fdf map file you want to visualize.
+
+## Requirements
+
+- macOS or Linux
+- miniLibX installed (included in the repository)
+
+## Credits
+
+This project was developed as part of the curriculum of school 42 (Madrid) by [Manuel Fernández].
+
+---
+
+## <a name="español"></a>Español
+
 # Fdf
 
 ![Demo](demo.gif)
