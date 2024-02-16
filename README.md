@@ -10,8 +10,6 @@
 
 # Fdf
 
-![Demo](demo.gif)
-
 This project focuses on the 3D graphical representation of maps using the miniLibX graphic library.
 
 ## Description
@@ -43,8 +41,6 @@ This project was developed as part of the curriculum of school 42 (Madrid) by [M
 ## <a name="español"></a>Español
 
 # Fdf
-
-![Demo](demo.gif)
 
 Este proyecto se centra en la representación gráfica de mapas en 3D utilizando la librería gráfica miniLibX.
 
